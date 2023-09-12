@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    background-color: #d4eeff;
+    margin: 0;
+    padding: 0;
+}
+
+#calendar {
+    max-width: 100%;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+#calendar-image {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.tittle {
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sub-tittle {
+    text-align: center;
+    font-size: 10px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#calendar th, #calendar td {
+    text-align: center;
+    padding: 10px;
+}
+
+/*Dias-calendario*/
+#calendar th {
+    color: #be5d4c;
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+}
+
+/*Numeros-calendario*/
+#calendar td {
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+}
+
+#calendar #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+}
+
+.icon-button:hover {
+    color: #3F9FFF;
+}
+
+/*Meses-años*/
+#month-year {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Señal-hoy*/
+.today {
+    color: #000000;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+/*Fin-de-semana*/
+.fin {
+    background-color: #badaf0;
+    border-radius: 15px;
+}
