@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    background-color: #f4e4c3;
+    margin: 0;
+    padding: 0;
+}
+
+#calendar {
+    max-width: 100%;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+#calendar-image {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    padding-top: 15px;
+}
+
+#calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#calendar th, #calendar td {
+    text-align: center;
+    padding: 10px;
+}
+
+#calendar th {
+    color: #be5d4c;
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+}
+
+#calendar td {
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+#calendar #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+}
+
+.icon-button:hover {
+    color: #3F9FFF;
+}
+
+#month-year {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    color: #333;
+}
+
+
+.today {
+    background-color: #faf1e0;
+    color: #000000;
+    border-radius: 20px;
+}
