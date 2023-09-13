@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
     background-color: #d4eeff;
@@ -16,7 +17,7 @@ body {
 
 #calendar-image {
     width: 100%;
-    max-width: 250px;
+    max-width: 245px;
     display: block;
     margin: 0 auto;
 }
@@ -26,18 +27,21 @@ img {
     padding-bottom: 8px;
 }
 
+/*Titulo-inicial*/
 .tittle {
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     color: #000000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
+/*Subtitulo-final*/
 .sub-tittle {
     text-align: center;
-    font-size: 10px;
+    font-size: 9px;
+    font-weight: bold;
     color: #000000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #calendar table {
@@ -50,18 +54,18 @@ img {
     padding: 10px;
 }
 
-/*Dias-calendario*/
+/*dias-calendario*/
 #calendar th {
     color: #be5d4c;
     font-family: 'Playfair Display', serif;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 /*Numeros-calendario*/
 #calendar td {
     cursor: pointer;
-    font-size: 17px;
-    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #calendar #header {
@@ -76,34 +80,30 @@ img {
     border: none;
     font-size: 20px;
     color: #333;
-    cursor: pointer;
     outline: none;
-}
-
-.icon-button:hover {
-    color: #3F9FFF;
 }
 
 /*Meses-años*/
 #month-year {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     margin: 0;
     flex-grow: 1;
     text-align: center;
     color: #333;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/*Señal-hoy*/
+/*Marcado.diario*/
 .today {
     color: #000000;
-    border-radius: 15px;
-    background-color: #ffffff;
+    border-radius: 50px 0 50px 0;
+    background-color: #149740;
+    color: #ffffff;
 }
 
 /*Fin-de-semana*/
 .fin {
-    background-color: #badaf0;
-    border-radius: 15px;
+    background-color: #abd2ec;
+    border-radius: 45px;
 }
