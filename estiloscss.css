@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
 
 body {
-    background-color: #d4eeff;
+    background: linear-gradient(to bottom, black, #333);
     margin: 0;
     padding: 0;
 }
@@ -15,8 +14,13 @@ body {
     text-align: center;
 }
 
+/*Color-numeros-dia*/
+#calendar-body td {
+    color: #b16815;
+}
+
 #calendar-image {
-    width: 100%;
+    width: 53%;
     max-width: 245px;
     display: block;
     margin: 0 auto;
@@ -31,7 +35,7 @@ img {
 .tittle {
     text-align: center;
     font-size: 14px;
-    color: #000000;
+    color: #b86e1a;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -40,7 +44,7 @@ img {
     text-align: center;
     font-size: 9px;
     font-weight: bold;
-    color: #000000;
+    color: #b86e1a;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -79,7 +83,7 @@ img {
     background-color: transparent;
     border: none;
     font-size: 20px;
-    color: #333;
+    color: #b86e1a;
     outline: none;
 }
 
@@ -90,20 +94,17 @@ img {
     margin: 0;
     flex-grow: 1;
     text-align: center;
-    color: #333;
+    color: #b86e1a;
     font-family: 'Montserrat', sans-serif;
 }
 
 /*Marcado.diario*/
 .today {
-    color: #000000;
-    border-radius: 50px 0 50px 0;
+    background-image: url(calabaza.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff !important;
+    /*border-radius: 50px 0 50px 0;
     background-color: #149740;
-    color: #ffffff;
-}
-
-/*Fin-de-semana*/
-.fin {
-    background-color: #abd2ec;
-    border-radius: 45px;
+    color: #ffffff;*/
 }
