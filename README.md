@@ -19,4 +19,4 @@ __1.1v__ | Creación de interfaz y extras.
 
 1.4v | Actualización de interfaz de época
 
-1.5v | Actualización de interfaz. Imagen eliminada para ganar espacio. Añadido festividades mensuales.
+1.5v | Cambios generales. Actualización de interfaz. Imagen eliminada para ganar espacio. Añadido festividades mensuales.
