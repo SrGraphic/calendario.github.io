@@ -13,7 +13,7 @@ Si se desea extraer el ZIP como inspiración o utilizar algún recurso contacte 
 
 # VERSIONES #
 
-1.1v | Creación de interfaz y extras.
+__1.1v__ | Creación de interfaz y extras.
 
 1.3v | Funcionalidad y desarrollo de sistemas de JS
 
