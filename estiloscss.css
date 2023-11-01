@@ -48,12 +48,12 @@ body {
 #calendar th {
     color: #be5d4c;
     font-family: 'Playfair Display', serif;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 /*Numeros-calendario*/
 #calendar td {
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Inter', sans-serif;
     color: #1b0452;
 }
