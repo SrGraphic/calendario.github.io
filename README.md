@@ -17,6 +17,6 @@ Si se desea extraer el ZIP como inspiración o utilizar algún recurso contacte 
 
 1.3v | Funcionalidad y desarrollo de sistemas de JS
 
-1.4v | Actualización e implementación de interfaz de época (Halloween)
+1.4v | Actualización de interfaz de época
 
 1.5v | Actualización de interfaz. Imagen eliminada para ganar espacio. Añadido festividades mensuales.
