@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Inter:wght@300&family=Playfair+Display&display=swap');
 
 body {
-    background: linear-gradient(to bottom, black, #333);
+    background-color: #fffaf3a8;
     margin: 0;
     padding: 0;
 }
@@ -14,29 +14,14 @@ body {
     text-align: center;
 }
 
-/*Color-numeros-dia*/
-#calendar-body td {
-    color: #b16815;
-}
-
-#calendar-image {
-    width: 53%;
-    max-width: 245px;
-    display: block;
-    margin: 0 auto;
-}
-
-img {
-    padding-top: 5px;
-    padding-bottom: 8px;
-}
-
-/*Titulo-inicial*/
+/*Titulo-Inicial*/
 .tittle {
     text-align: center;
-    font-size: 14px;
-    color: #b86e1a;
+    font-size: 15px;
+    color: #090452;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 /*Subtitulo-final*/
@@ -44,8 +29,9 @@ img {
     text-align: center;
     font-size: 9px;
     font-weight: bold;
-    color: #b86e1a;
+    color: #1b0452;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 260px;
 }
 
 #calendar table {
@@ -58,7 +44,7 @@ img {
     padding: 10px;
 }
 
-/*dias-calendario*/
+/*Dias-Calendario*/
 #calendar th {
     color: #be5d4c;
     font-family: 'Playfair Display', serif;
@@ -67,9 +53,9 @@ img {
 
 /*Numeros-calendario*/
 #calendar td {
-    cursor: pointer;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: #1b0452;
 }
 
 #calendar #header {
@@ -83,28 +69,37 @@ img {
     background-color: transparent;
     border: none;
     font-size: 20px;
-    color: #b86e1a;
+    color: #190452;
     outline: none;
 }
 
-/*Meses-años*/
+/*Meses-año*/
 #month-year {
     font-size: 15px;
     font-weight: bold;
     margin: 0;
     flex-grow: 1;
     text-align: center;
-    color: #b86e1a;
+    color: #040c52;
     font-family: 'Montserrat', sans-serif;
 }
 
-/*Marcado.diario*/
+/*Hoy*/
 .today {
-    background-image: url(calabaza.png);
+    background-image: url(hojas-de-otono.png);
     background-repeat: no-repeat;
     background-position: center;
-    color: #ffffff !important;
-    /*border-radius: 50px 0 50px 0;
-    background-color: #149740;
-    color: #ffffff;*/
+    color: #f1e5ac !important;
+    font-weight: bold;
+}
+
+/*Fin-semana*/
+.end-week {
+    background-image: url(cuadrado.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+hr {
+    width: 90%;
 }
