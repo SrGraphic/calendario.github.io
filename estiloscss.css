@@ -31,7 +31,7 @@ body {
     font-weight: bold;
     color: #1b0452;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 260px;
+    margin-top: 240px;
 }
 
 #calendar table {
@@ -48,7 +48,7 @@ body {
 #calendar th {
     color: #be5d4c;
     font-family: 'Playfair Display', serif;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 /*Numeros-calendario*/
