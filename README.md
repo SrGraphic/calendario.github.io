@@ -13,10 +13,10 @@ Si se desea extraer el ZIP como inspiración o utilizar algún recurso contacte 
 
 # VERSIONES #
 
-__1.1v__ | Creación de interfaz y extras.
-
-1.3v | Funcionalidad y desarrollo de sistemas de JS
+1.1v | Creación de interfaz, funcionalidad y desarrollo de sistemas de JS.
 
 1.4v | Actualización de interfaz de época
 
 1.5v | Cambios generales. Actualización de interfaz. Imagen eliminada para ganar espacio. Añadido festividades mensuales.
+
+1.6v | Actualización de interfaz de época, nieve.
