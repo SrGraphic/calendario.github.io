@@ -6,6 +6,11 @@ body {
     padding: 0;
 }
 
+.sup-img {
+    width: 400px;
+    margin-top: -20px;
+}
+
 #calendar {
     max-width: 100%;
     margin: 0;
