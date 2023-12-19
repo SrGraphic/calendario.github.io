@@ -6,11 +6,6 @@ body {
     padding: 0;
 }
 
-.sup-img {
-    width: 400px;
-    margin-top: -20px;
-}
-
 #calendar {
     max-width: 100%;
     margin: 0;
@@ -19,7 +14,6 @@ body {
     text-align: center;
 }
 
-/*Titulo-Inicial*/
 .tittle {
     text-align: center;
     font-size: 16px;
@@ -29,7 +23,6 @@ body {
     margin-top: 30px;
 }
 
-/*Subtitulo-final*/
 .sub-tittle {
     text-align: center;
     font-size: 8px;
@@ -52,14 +45,12 @@ body {
     padding: 10px;
 }
 
-/*Dias-Calendario*/
 #calendar th {
     color: #be5d4c;
     font-family: 'Playfair Display', serif;
     font-size: 15px;
 }
 
-/*Numeros-calendario*/
 #calendar td {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
@@ -81,7 +72,6 @@ body {
     outline: none;
 }
 
-/*Meses-año*/
 #month-year {
     font-size: 15px;
     margin: 0;
@@ -91,7 +81,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/*Hoy*/
 .today {
     background-image: url(copo-de-nieve.png);
     background-repeat: no-repeat;
@@ -100,7 +89,6 @@ body {
     font-weight: bold;
 }
 
-/*Fin-semana*/
 .end-week {
     background-image: url(cuadrado.png);
     background-repeat: no-repeat;
